@@ -1,0 +1,106 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+
+    animation-name: fundo;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 30%;
+    height: 40%;
+
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 3%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container .content-container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.container .content-container .cronometro-div {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 55px;
+
+    margin-bottom: 5%;
+}
+
+.container .content-container btn-div {
+    display: inline-flex;
+    justify-content: center;
+}
+.container .content-container button {
+    width: 32%;
+    height: 40px;
+
+    background-color: black;
+    border-radius: 25px;
+
+    font-size: 24px;
+    color: aliceblue;
+
+    transition: ease  0.3s;
+    cursor: pointer;
+}
+.container .content-container button:hover {
+    width: 32%;
+    height: 45px;
+
+    background-color: aliceblue;
+    border-radius: 15px;
+
+    font-size: 26px;
+    color:  black;
+}
+
+/*Animations*/
+@keyframes fundo {
+    0%{
+        background-color: rgb(102, 12, 187);
+    }
+    25%{
+        background-color: rgb(61, 8, 111);
+    }
+    50%{
+        background-color: black;
+    }
+    75%{
+        background-color: rgb(70, 5, 130);
+    }
+    100%{
+        background-color: rgb(131, 15, 238);
+    }
+}
+
+/*JS CLASS*/
+.afterBtn {
+    width: 32%;
+    height: 45px;
+
+    background-color: aliceblue;
+    border-radius: 15px;
+
+    font-size: 26px;
+    color:  black;
+}
