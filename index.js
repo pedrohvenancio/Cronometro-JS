@@ -1,5 +1,4 @@
 //Variaveis
-const container = document.querySelector('.container');
 const iniciar = document.getElementById('iniciar');
 const parar = document.getElementById('parar');
 const resetar = document.getElementById('resetar');
