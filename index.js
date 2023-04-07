@@ -30,7 +30,7 @@ function Iniciar(){
 var setIniciar;
 
 function timer(){
-    setIniciar = setInterval(Iniciar, 100);
+    setIniciar = setInterval(Iniciar, 1000);
 }
 iniciar.addEventListener('click', timer);
 
